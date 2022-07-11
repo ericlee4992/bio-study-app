@@ -1,0 +1,40 @@
+body{
+    background-color: #FFEBCD;
+    font-family: "Courier New";
+}
+
+.title{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    color:rgb(212, 212, 55);
+    font-family: 'Finlandica', sans-serif;
+    font-family: 'Finlandica', sans-serif;
+}
+
+.home{
+    display:flex;
+    justify-content: flex-end;
+    margin-right:35px;
+}
+#theme{
+    cursor: pointer;
+    margin-right: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.topic{
+    margin-left: 30px;
+    display:flex;
+    flex-direction: column;
+}
+
+.head{
+    margin-bottom:50px;
+    margin-left: 30px;
+}
+
+.website{
+    margin-top:20px;
+}

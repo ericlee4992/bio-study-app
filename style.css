@@ -1,0 +1,62 @@
+body{
+    background-color: #FFEBCD;
+    
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    margin: 20px 40px 40px 40px;
+    
+}
+
+.first{
+    display:flex;
+    flex-direction:row;
+    font-family: 'Finlandica', sans-serif;
+    font-family: 'Finlandica', sans-serif;
+   
+    
+}
+
+.first > div{
+    margin-right: 15px;
+}
+
+.second{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    margin-bottom: 30px;
+    font-family: "Courier New";
+    
+}
+
+.second > div{
+    margin-right: 40px;
+    
+}
+
+.third{
+    display:flex;
+    flex-direction:column;
+    font-family: "Courier New";
+    
+}
+
+
+.third > div{
+    display:flex;
+    margin-bottom:20px;
+}
+
+.third .name{
+    margin-left: 15px;
+}
+
+#theme{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
