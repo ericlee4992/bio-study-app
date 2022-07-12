@@ -1,0 +1,26 @@
+Web Application
+
+3 Layers
+* Front End
+    Web Browser side
+    User Interaction, User Interface
+    HTML, CSS, Javascript (React, Angular ...)
+
+<-- Internet (data packet) -->
+
+http://www.google.com:80/search?q=crean+lutheran&a=asd
+- Protocol: http, ftp ...
+- Host (domain): www.google.com
+- Port: 80 (default)
+- Path: search ...
+- Query String: ?k=v (& sign to concatenate more pairs)
+
+
+* Back End
+    Server side
+    Data processing
+    Java (Spring Boot), Python (Django), Javascript (node js)
+
+* Database
+    - SQL
+    - NoSQL
