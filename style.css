@@ -10,7 +10,7 @@ body{
     
 }
 
-.first{
+.header{
     display:flex;
     flex-direction:row;
     font-family: 'Finlandica', sans-serif;
@@ -19,11 +19,11 @@ body{
     
 }
 
-.first > div{
+.header > div{
     margin-right: 15px;
 }
 
-.second{
+.options{
     display:flex;
     flex-direction:row;
     justify-content:flex-end;
@@ -32,12 +32,12 @@ body{
     
 }
 
-.second > div{
+.options > div{
     margin-right: 40px;
     
 }
 
-.third{
+.lessons{
     display:flex;
     flex-direction:column;
     font-family: "Courier New";
@@ -45,7 +45,7 @@ body{
 }
 
 
-.third > div{
+.lessons > div{
     display:flex;
     margin-bottom:20px;
 }
@@ -59,4 +59,10 @@ body{
     background-color: black;
     color: white;
     border-radius: 10px;
+}
+
+.form{
+    
+    margin-top: 100px;
+    display:flex;
 }
